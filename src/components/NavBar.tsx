@@ -3,7 +3,9 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 export const NavBar = () => {
   return (
-    <div className={`flex   w-full min-h-[38px]  items-center justify-between`}>
+    <div
+      className={`flex  pt-3 bg-[#f4f8fc]  pb-3 w-full sm:min-h-[38px]  items-center justify-between`}
+    >
       <div className="flex  bg-[#e8eef4]  rounded-md mt-2  xs:w-[200px] md:w-[250px] ">
         <input
           type="text"
@@ -17,7 +19,9 @@ export const NavBar = () => {
       </div>
       <div className="flex justify-between ">
         <div className="sm:block hidden text-end relative mt-2">
-          <h4 className="text-[#495863] font-lato font-semibold text-[14px]">jamesbrown@example.com</h4>
+          <h4 className="text-[#495863] font-lato font-semibold text-[14px]">
+            jamesbrown@example.com
+          </h4>
           <p className="text-[#a1adb6] text-sm">Admin</p>
         </div>
         <div className="flex gap-1 items-center cursor-pointer">

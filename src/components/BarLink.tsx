@@ -12,7 +12,7 @@ export const BarLink = ({ Icon, path, SelectIcon, name, exact }: BarLinkProps) =
   return (
     <a href={path}>
       <div
-        className={`flex justify-between   lg:ml-[30px]   hover:bg-[#edeffa] sm:pl-3   rounded-r-lg rounded-bl-lg   space-x-1 ml-[12px] mr-[30%] md:mr-[20%] lg:mr-[30%] xl:mr-[20%] lg:justify-start  py-2  mt-3  mb-[15px] lg:py-[8px] gap-2 items-center cursor-pointer  ${
+        className={`flex justify-between space-x-0 lg:space-x-7  xl:space-x-10   lg:ml-[30px]   hover:bg-[#edeffa] sm:pl-3   rounded-r-lg rounded-bl-lg ml-[12px] mr-[30%] md:mr-[20%] lg:mr-[30%] xl:mr-[20%] lg:justify-start  py-2  mt-3  mb-[15px] lg:py-[8px] gap-2 items-center cursor-pointer  ${
           isActive ? " text-[#7283dd] bg-[#edeffa]" : "text-[#89959f] "
         }`}
       >

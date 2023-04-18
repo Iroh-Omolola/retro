@@ -4,10 +4,11 @@ export const RadarData = {
   datasets: [
     {
       label: "March",
-      backgroundColor: "#e1b9db",
-      borderColor: "#ee6a8e",
+      borderColor: "#df7aad",
+      backgroundColor: "rgba(227,169,213,.2)",
       pointBackgroundColor: "#e2e2f4",
       poingBorderColor: "#ee6a8e",
+      borderWidth: 2,
       radius: 0,
       pointHoverBackgroundColor: "#ee6a8e",
       pointHoverBorderColor: "#e1b9db",
@@ -15,8 +16,9 @@ export const RadarData = {
     },
     {
       label: "March",
-      backgroundColor: "#c7dcf8",
-      borderColor: "#5da2ed",
+      borderColor: "#5e8be2",
+      borderWidth: 2,
+      backgroundColor: "rgba(92,136,226,.2)",
       pointBackgroundColor: "#dbe8fa",
       poingBorderColor: "#5da2ed",
       radius: 0,
@@ -28,6 +30,7 @@ export const RadarData = {
 };
 export const RadarOptions = {
   responsive: true,
+  tension: 0.1,
   plugins: {
     legend: {
       display: false,
@@ -60,7 +63,6 @@ export const RadarOptions = {
           }
           return "#dbdfe2";
         },
-        borderRadius: 7,
       },
     },
   },

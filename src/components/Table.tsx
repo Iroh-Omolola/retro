@@ -28,7 +28,7 @@ export const AppointmentTable = ({ data }: TableProps) => {
                     <td className="pl-6 py-3 pr-3 whitespace-nowrap ">
                       <div className="flex items-center">
                         <div className="flex-shrink-0 ">
-                          <div className="w-9 h-10 bg-[#efefef] -mt-2 rounded-md  mr-2 ">
+                          <div className="w-9 h-10 bg-[#efefef] -mt-2 rounded-lg  mr-2 ">
                             <img src={tableData.icon} alt="Retro logo" />
                           </div>
                         </div>

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { TbChartLine, TbWallet } from "react-icons/tb";
 import { BsCart2, BsFlag } from "react-icons/bs";
 import {
@@ -7,6 +6,7 @@ import {
   HiChevronDown,
 } from "react-icons/hi";
 import { FiSettings, FiUsers } from "react-icons/fi";
+import { GiFamilyHouse } from "react-icons/gi";
 import routes from "../utils/routes";
 import { BarLink } from "./BarLink";
 import Logo from "./assets/retro_logo.png";
@@ -19,7 +19,7 @@ const BAR_ROUTES = [
   {
     name: "Products",
     path: routes.PRODUCTS,
-    Icon: TbChartLine,
+    Icon: GiFamilyHouse,
     exact: false,
   },
   {
@@ -59,15 +59,15 @@ const BAR_ROUTES = [
 export const DashboardSideBar = ({ exact }: Props) => {
   return (
     <div className="h-full">
-      <div className="w-[3rem]  xs:w-[5rem] lg:w-[16rem]">
+      <div className="w-[3rem]   xs:w-[5rem] lg:w-[16rem]">
         <div className="flex w-full flex-col items-center lg:items-start pl-0  lg:mt-0">
           <a href={"/"}>
-            <div className="hidden lg:flex h-[60px] mt-[22px] mb-5  lg:pl-[26px] cursor-pointer ">
+            <div className="hidden  lg:flex h-[60px] mt-[10px] mb-5  lg:pl-[26px] cursor-pointer ">
               <img src={Logo} alt="Retro logo" />
             </div>
           </a>
           <div
-            className={`lg:hidden block h-[60px] md:w-[60px] w-[35px] xs:w-[50px] mt-[22px]  pl-0 lg:pl-[32px]`}
+            className={`lg:hidden block h-[20px]  md:w-[60px] w-[35px] xs:w-[50px] mt-[10px]  pl-0 lg:pl-[32px]`}
           >
             <img src={Logo} alt="Retro logo" />
           </div>

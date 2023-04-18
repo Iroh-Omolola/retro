@@ -49,7 +49,7 @@ export const MiniCard = ({
                 <img
                   src={cardId === d.id ? d.icon : d.iconTwo}
                   className={`${
-                    d.id == 1 || d.id == 2
+                    d.id === 1 || d.id === 2
                       ? "2xl:-mt-5 lg:-mt-8 md:-mt-5 sm:-mt-5  w-[100px] h-[40px]   sm:w-[120px] sm:h-[60px]   md:w-[120px] md:h-[60px]  lg:w-[150px] lg:h-[80px] 2xl:w-[120px] 2xl:h-[60px] "
                       : "2xl:-mt-5 lg:-mt-8 md:-mt-5  -mt-3 h-[40px] w-[40px] sm:-mt-5 sm:w-[60px] sm:h-[60px] md:h-[60px] lg:h-[80px] 2xl:h-[60px]"
                   }  ${className}`}
